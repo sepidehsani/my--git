@@ -1,0 +1,313 @@
+@media only screen and (min-width: 992px) {
+    .d-none-res-min992{
+        display: none;
+    }
+
+    .d-block-res-min992{
+        display: block;
+    }
+    .p-inherit-res-min992{
+        position: inherit!important;
+    }
+    .p-initial-res-min992{
+        position: initial!important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .d-none-res-max768{
+        display: none;
+    }
+    .d-block-res-max768{
+        display: block!important;
+    }
+    .p-inherit-res-max768{
+        position: inherit!important;
+    }
+    .p-initial-res-max768{
+        position: initial!important;
+    }
+    .works{
+        grid-template-columns:auto!important;
+    }
+    /* #service{
+        margin-bottom: 20px;
+    } */
+    #service .contanier .row .col-md-2{
+        padding: 0 1px!important;
+    }
+    .line-burst-2::before{
+       display: none;;
+    }
+    .circle::after{
+        left: -35%!important;
+    }
+    .counselor-feature .container .row .col-md-12 .d-flex{
+        justify-content: center;
+        position: relative;
+        z-index: 5;
+    }
+    .main-content-feature {
+        margin-top: 0!important;
+    }
+    .clinic-slider {
+        padding: 25px 8px!important;
+    }
+    .main-slider-clinic{
+        padding: 60px 12px!important;
+    }
+    .image-clinic img:nth-child(3) {
+        top: 29%!important;
+        right: 0%!important;
+    }
+    .box-search {
+        width: 114%!important;
+    }
+    .mt-50 {
+        margin-top: 25px!important;
+    }
+    .d-grid-res-768{
+        display: grid;
+    }
+    .pack-res-768{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .border-feature-clinic img{
+        width: 300px;
+    }
+    .border-feature-clinic::before {
+        height: 43%!important;
+    }
+    .title-feature h4{
+        font-size: 16px;
+    }
+    .circle-clinics{
+        display: none;
+    }
+    .main-clinics .col-md-6 ,.main-workshop .col-md-6 ,.main-case-study .col-md-6{
+        margin-bottom: 10px;
+    }
+    .title-cer {
+        padding-left: 8px!important;
+    }
+    .main-workshop::after {
+        left: 27px!important;
+    }
+    .pt-50{
+        padding-top: 25px!important;
+    }
+    .main-text{
+        padding-left: 0!important;
+    }
+    .main-image:before {
+        width: 130%!important;
+    }
+    .slider-job-seeker {
+        padding: 25px 23px!important;
+        background-position: top;
+        height: 560vh!important;
+    }
+    .filter{
+        display: flex;
+        justify-content: center;
+    }
+    .exprtise h5 {
+        font-size: 14px;
+    }
+    .step1 ,.step2::before {
+        display: none;
+    }
+   
+}
+
+/* Between 700px and 1000px */
+@media screen and (max-width: 769px) and (min-width: 456px) {
+    /* .border-feature-clinic::before {
+        height: 95%!important;
+    } */
+}
+@media only screen and (max-width: 456px) {
+    .d-none-res-max456{
+        display: none;
+    }
+    .d-block-res-max456{
+        display: block!important;
+    }
+    .p-inherit-res-max456{
+        position: inherit!important;
+    }
+    .p-initial-res-max456{
+        position: initial!important;
+    }
+    #service .contanier .row .col-sm-6 ,.menu .container .row .col-sm-6 ,.main-menu .container .row .col-sm-6 ,.main-workshop .row .col-sm-6 ,.main-case-study .row .col-sm-6 ,.jobseeker-brands .row .col-sm-6{
+        width: 50%;
+    }
+    /* .menu .container .row .col-sm-6{
+        width: 50%;
+    }
+    .main-menu .container .row .col-sm-6{
+        width: 50%;
+    }
+    .main-workshop .row .col-sm-6{
+        width: 50%;
+    } */
+    .navbar-nav .nav-link{
+        text-align: right;
+        padding-right: 12px!important;
+    }
+    .main-slider .slider{
+        padding-top: 0!important;
+    }  
+    .main-text{
+        padding-top: 0!important;
+        padding-left: 0!important;
+    }
+    .slider .container .h-em-24{
+      height: 44em;
+    }
+    .main-image:before {
+        left: -2%!important;
+        width: 105%!important;
+    }
+    .main-image{
+        margin-right: 40px;
+    }
+    #service .contanier .row{
+        padding: 0 36px;
+    }
+    #service .contanier .row .col-md-2{
+        width: 50%!important;
+    }
+    #service .contanier{
+        overflow-x: hidden;
+    }
+    .clinic-slider{
+        padding: 25px 18px!important;
+    }
+    .image-clinic img:nth-child(3) {
+        top: 30%!important;
+        right: -1%!important;
+    }
+    .mt-80{
+        margin-top: 40px!important;
+    }
+    .mt-60{
+        margin-top: 30px!important;
+    }
+    .pt-100{
+        padding-top: 50px!important;
+    }
+    .p-res-l-20{
+        padding-left: 20px!important;
+    }
+    .p-res-r-20{
+        padding-right: 20px!important;
+    }
+    .m-res-t-20{
+        margin-top: 20px!important;
+    }
+    .text-clinic h3 {
+        margin-top: 33px!important;
+    }
+    .main-slider-clinic{
+        padding: 60px 25px!important;
+    }
+    .box-register{
+        border-radius: 150px!important;
+    }
+    .box-register h3{
+        font-size: 15px!important;
+    }
+    .box-search {
+        right: -17px!important;
+    }
+    .d-grid-res-456{
+        display: grid!important;
+    }
+    .pack-res-456{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .border-feature-clinic img{
+        margin: 0 auto;
+        display: block;
+        width: 300px;
+    }
+    .border-feature-clinic::before {
+        width: 68%!important;
+        height: 95%!important;
+    }
+    .circle-clinics{
+        display: none;
+    }
+    .main-clinics .col-sm-6{
+        width: 50%;
+    }
+    .title-clinics h4{
+        font-size: 16px;
+    }
+    .clinic {
+        width: 67%;
+        margin: 0 auto;
+    }
+    .main-clinics{
+        width: 100%;
+    }
+    .main-clinics .row .col-lg-3 ,.main-workshop .row .col-lg-3 ,.main-case-study .row .col-lg-3{
+        margin-bottom: 10px;
+    }
+    .d-centering-res-456{
+        display: flex;
+        justify-content: center;
+    }
+    .sertificate ,.workshop ,.case-study {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .title-cer{
+        padding-left: 0!important;
+        padding-bottom: 20px;
+    }
+    .main-case-study::after ,.box-sertificate::after{
+       display: none!important;
+    }
+    /**/
+    .main-workshop::after{
+        left: 33px!important;
+    }
+    .box-clinic ,.box-case-study{
+        width: 81%;
+        margin: 0 auto;
+    } 
+    .arrow-clinic{
+        top: -35em!important;
+    }
+    .title-workshop h3 ,.title-case-studys h3{
+        font-size: 13px!important;
+    }
+    .slider-job-seeker {
+        padding: 25px 20px!important;
+    }
+    .slider-job-seeker{
+        background-position: top;
+        height: 630vh!important;
+        background-repeat: no-repeat
+    }
+    .video-button-jobSeeker {
+        padding: 173px 0px 61px!important;
+    }
+    /**/
+    .item-filter li {
+        padding: 5px 9px!important;
+        font-size: 12px!important;
+    }
+    .iteam-filter li{
+        margin:10px 0px!important; 
+    }
+    .step1 ,.step2::before {
+        display: none;
+    }
+    
+}
+  

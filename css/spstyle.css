@@ -1,0 +1,25 @@
+li {
+    display: inline-block;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: gray;
+    color:3F3083 ;
+  
+}
+h5 {
+    text-align: right;
+    color:3F3083;
+}
+body {
+    background-color:D0CBE7 ;
+}
+.bbb{
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+form {
+    text-align: center;
+}
+   #bg2{ background-color:D0CBE7 ;
+}
